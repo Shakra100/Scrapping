@@ -1,6 +1,6 @@
 import novels from '../novels.json'
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
   function Novels() {
     const [data, setData] = useState(novels); // Directly set imported data

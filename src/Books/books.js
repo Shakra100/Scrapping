@@ -1,6 +1,6 @@
 import books from '../notebooks.json'
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
   function Books() {
     const [data, setData] = useState(books); // Directly set imported data

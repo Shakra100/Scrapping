@@ -1,6 +1,6 @@
 import headphones from '../headphones.json'
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
   function Headphones() {
     const [data, setData] = useState(headphones); // Directly set imported data

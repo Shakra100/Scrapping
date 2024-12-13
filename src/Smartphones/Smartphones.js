@@ -1,6 +1,6 @@
 import smartphones from '../smartphones.json'
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
   function Smartphones() {
     const [data, setData] = useState(smartphones); // Directly set imported data

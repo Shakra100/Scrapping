@@ -1,6 +1,6 @@
 import bags from '../bags.json'
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
   function Books() {
     const [data, setData] = useState(bags); // Directly set imported data

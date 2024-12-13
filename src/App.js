@@ -9,8 +9,6 @@ import Laptops from './Laptops/laptops.js'
 import Books from './Books/books.js'
 import Novels from './Novels/novels.js'
 
-import { useState } from 'react';
-
 function HomePage() {
   const navigate = useNavigate();
 

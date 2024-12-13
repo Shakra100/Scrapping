@@ -1,6 +1,6 @@
 import shoes from '../nike shoes.json'
 
-import { useEffect, useState } from 'react';
+import {useState } from 'react';
 
   function Shoes() {
     const [data, setData] = useState(shoes); // Directly set imported data
